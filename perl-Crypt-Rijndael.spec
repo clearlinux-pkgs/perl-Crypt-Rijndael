@@ -4,10 +4,10 @@
 #
 Name     : perl-Crypt-Rijndael
 Version  : 1.13
-Release  : 9
+Release  : 10
 URL      : https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.13.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.13.tar.gz
-Summary  : 'Crypt::CBC compliant Rijndael encryption module'
+Summary  : AES/Rijndael Encryption Module
 Group    : Development/Tools
 License  : LGPL-3.0
 Requires: perl-Crypt-Rijndael-lib = %{version}-%{release}
@@ -25,6 +25,7 @@ Summary: dev components for the perl-Crypt-Rijndael package.
 Group: Development
 Requires: perl-Crypt-Rijndael-lib = %{version}-%{release}
 Provides: perl-Crypt-Rijndael-devel = %{version}-%{release}
+Requires: perl-Crypt-Rijndael = %{version}-%{release}
 
 %description dev
 dev components for the perl-Crypt-Rijndael package.
