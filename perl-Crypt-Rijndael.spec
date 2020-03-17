@@ -4,7 +4,7 @@
 #
 Name     : perl-Crypt-Rijndael
 Version  : 1.14
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.14.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.14.tar.gz
 Summary  : 'Crypt::CBC compliant Rijndael encryption module'
@@ -98,5 +98,5 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/Crypt/Rijndael.pm
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/Crypt/Rijndael/Rijndael.so
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/Crypt/Rijndael.pm
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/Crypt/Rijndael/Rijndael.so
