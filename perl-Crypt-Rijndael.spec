@@ -7,7 +7,7 @@
 #
 Name     : perl-Crypt-Rijndael
 Version  : 1.16
-Release  : 35
+Release  : 36
 URL      : https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.16.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/L/LE/LEONT/Crypt-Rijndael-1.16.tar.gz
 Summary  : 'Crypt::CBC compliant Rijndael encryption module'
